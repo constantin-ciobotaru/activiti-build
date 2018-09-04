@@ -3,7 +3,7 @@ pipeline {
       label "jenkins-maven"
     }
     environment {
-      ORG               = 'activiti'
+      ORG               = 'constantin-ciobotaru'
       APP_NAME          = 'activiti-build'
       CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     }
